@@ -1,44 +1,6 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
 <!-- Start footer -->
-<footer>
-  <div class="footer-top pt-50 pb-50">
+<footer class="site-footer">
+  <div class="wrapper footer-top pt-50 pb-50">
     <div class="footer-widget-area">
       <div class="container">
         <div class="row">
@@ -49,13 +11,13 @@
                 <h3>ABOUT US</h3>
               </div>
               <div class="widget-about-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id tincidunt risus. </p>
+                <p>{{ site.description }}</p>
               </div>
               <div class="widget-contact-content">
                 <h3>CONTACT US</h3>
-                <a href="tel:+0012345678">Phone :  +(00) 1234-5678</a>
-                <a href="mailto:info@granttheme.com">Email :  info@granttheme.com</a>
-                <p>Address :  122, New road, South Zone Country.</p>
+                <a href="tel:{{ site.phone_href }}">Phone : {{ site.phone_display }}</a>
+                <a href="mailto:info@granttheme.com">Email : {{ site.email }}</a>
+                <p>Address : {{ site.address }}</p>
               </div>
             </div>
           </div>
@@ -121,15 +83,39 @@
       <div class="row">
         <div class="col-md-8">
           <div class="copyright">
-            <p>Copyright 2017 All rigth reserved. Design by theme <a href="#">Grant Foundation</a></p>
+            <p>Copyright 2017 All rigth reserved. Design by theme <a href="#">{{ site.title}}</a></p>
           </div>
         </div>
         <div class="col-md-4">
+          <div class="footer-col footer-col-2">
+            <ul class="social-media-list">
+              {% if site.github_username %}
+              <li>
+                {% include icon-github.html username=site.github_username %}
+              </li>
+              {% endif %}
+
+              {% if site.twitter_username %}
+              <li>
+                {% include icon-twitter.html username=site.twitter_username %}
+              </li>
+              {% endif %}
+            </ul>
+          </div>
           <div class="footer-social">
             <nav>
-              <ul>
+              <ul class="social-media-list">
+                {% if site.github_username %}
+                <li>
+                  {% include icon-github.html username=site.github_username %}
+                </li>
+                {% endif %}
+                {% if site.twitter_username %}
+                <li>
+                  {% include icon-twitter.html username=site.twitter_username %}
+                </li>
+                {% endif %}
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
