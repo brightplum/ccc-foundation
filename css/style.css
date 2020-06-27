@@ -660,7 +660,7 @@ h1.title1 {
 /*  5. Help us area CSS
 /*----------------------------------------*/
 .help-us-area {
-  background: rgba(0, 0, 0, 0) url("img/help-us-bg.jpg") repeat fixed 0 0;
+  background: rgba(0, 0, 0, 0) url("https://via.placeholder.com/902x600.png") repeat fixed 0 0;
   color: #fff;
 }
 .section-title-style-two.text-center {
@@ -753,7 +753,7 @@ h1.title1 {
 /*  7. Countdown area CSS
 /*----------------------------------------*/
 .countdown-area {
-  background: rgba(0, 0, 0, 0) url("img/count-down-bg.jpg") repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("https://via.placeholder.com/1050x410.png?text=countdown+image") repeat scroll 0 0;
 }
 .countdown-side-area {
   margin-top: 35px;
