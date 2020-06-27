@@ -16,7 +16,7 @@
 
   <!-- Favicon
   ============================================ -->
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}img/favicon.ico">
 
   <!-- master CSS
   ============================================ -->
@@ -48,6 +48,6 @@
   <link rel="alternate stylesheet" href="{{ site.url }}css/switcher/background5.css" title="background5" media="screen" />
   <!-- Color Css Files End -->
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
