@@ -47,7 +47,7 @@
         <div class="col-md-3 col-xs-12">
           <div class="logo ptb-32">
             <!-- logo here -->
-            <a href="index.html">
+            <a href="{{ site.baseurl }}index.htmlindex.html">
               <img src="https://via.placeholder.com/75x75.png?" alt="">
             </a>
             <!-- end logo -->
@@ -58,7 +58,7 @@
             <nav>
               <ul>
                 <li>
-                  <a href="index.html">Home</a>
+                  <a href="{{ site.baseurl }}index.html">Home</a>
                 </li>
                 {% for my_page in site.pages %}
                 {% if my_page.title %}
@@ -86,7 +86,7 @@
           <nav id="dropdown">
             <ul class="nav">
               <li>
-                <a class="home" href="index.html">Home</a>
+                <a class="home" href="{{ site.baseurl }}index.html">Home</a>
               </li>
               {% for my_page in site.pages %}
               {% if my_page.title %}
