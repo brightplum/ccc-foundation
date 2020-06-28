@@ -1,0 +1,16 @@
+- name: Home
+  link: {{ site.url }}
+- name: About
+  link: /about
+- name: Power & Purpose
+  link:
+- name: Grantees
+  link:
+- name: Events
+  link:
+- name: Photos
+  link:
+- name: Members Only
+  link:
+- name: Contact Us
+  link:
