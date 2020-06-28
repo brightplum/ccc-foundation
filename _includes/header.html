@@ -57,20 +57,9 @@
           <div class="main-menu">
             <nav>
               <ul>
-                <li>
-                  <a href="{{ site.url }}index.html">Home</a>
-                </li>
-                {% for my_page in site.pages %}
-                {% if my_page.title %}
-                <li>
-                  <a class="" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
                 {% for item in site.data.navigation %}
                 <li>
-                  <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+                  <a href="{{ site.url | item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
                     {{ item.name }}
                   </a>
                 </li>
@@ -93,12 +82,9 @@
         <div class="mobile-menu">
           <nav id="dropdown">
             <ul class="nav">
-              <li>
-                <a class="home" href="{{ site.url }}index.html">Home</a>
-              </li>
               {% for item in site.data.navigation %}
               <li>
-                <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+                <a href="{{ site.url | item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
                   {{ item.name }}
                 </a>
               </li>
