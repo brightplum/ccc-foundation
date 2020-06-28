@@ -96,12 +96,12 @@
               <li>
                 <a class="home" href="{{ site.url }}index.html">Home</a>
               </li>
-              {% for my_page in site.pages %}
-              {% if my_page.title %}
+              {% for item in site.data.navigation %}
               <li>
-                <a class="" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title }}</a>
+                <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+                  {{ item.name }}
+                </a>
               </li>
-              {% endif %}
               {% endfor %}
             </ul>
           </nav>
