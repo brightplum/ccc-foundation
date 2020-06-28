@@ -1,7 +1,7 @@
 - name: Home
   link: index.html
 - name: About
-  link: /about
+  link: about
 - name: Power & Purpose
   link:
 - name: Grantees
