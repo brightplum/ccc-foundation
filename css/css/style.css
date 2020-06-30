@@ -15,7 +15,7 @@
 	1. Theme default CSS
 	2. Header CSS
 	3. Slider CSS
-	4. Our couses area CSS
+	4. Our causes area CSS
 	5. Help us area CSS
 	6. Our-gallery CSS
 	7. Countdown area CSS
@@ -27,7 +27,7 @@
 	13. About us CSS
 	14. Blog CSS
 	15. Contact CSS
-	16. Couses page CSS
+	16. Causes page CSS
 	17. Up comming events CSS
 	18. Error page area CSS
 	19. Blog details CSS
@@ -588,7 +588,7 @@ h1.title1 {
 
 
 /*----------------------------------------*/
-/*  4. Our couses area CSS
+/*  4. Our causes area CSS
 /*----------------------------------------*/
 /* section title */
 .section-title {
@@ -611,45 +611,45 @@ h1.title1 {
   font-size: 15px;
   margin-top: 10px;
 }
-/* single couses */
-.single-couses {
+/* single causes */
+.single-causes {
   display: block;
   margin-bottom: -5px;
   overflow: hidden;
 }
-.single-couses-image-text {
+.single-causes-image-text {
   transition: all 0.3s ease 0s;
 }
-.single-couses:hover .single-couses-image-text {
+.single-causes:hover .single-causes-image-text {
   box-shadow: 0 0 10px 0 #999;
 }
-.couses-text {
+.causes-text {
   background: #f1f1f1 none repeat scroll 0 0;
   display: block;
   margin-bottom: 30px;
   overflow: hidden;
   padding: 40px 25px;
 }
-.couses-text h3 {
+.causes-text h3 {
   color: #1b1b1b;
   font-size: 18px;
   font-weight: bold;
 }
-.couses-text.text-center > p {
+.causes-text.text-center > p {
   color: #333;
   font-family: roboto;
   font-size: 13px;
   margin-bottom: 0;
 }
-.couses-button {
+.causes-button {
   float: left;
   width: 40%;
 }
-.couses-price {
+.causes-price {
   float: right;
   width: 60%;
 }
-.couses-price h5 {
+.causes-price h5 {
   color: #555;
   float: right;
   font-family: roboto;
@@ -1520,34 +1520,34 @@ line-height: 36px;}
   height:500px;
 }
 /*----------------------------------------*/
-/*  16. Couses page CSS
+/*  16. Causes page CSS
 /*----------------------------------------*/
-.couses-page-content .couses-button {
+.causes-page-content .causes-button {
   float: none;
   margin: 30px 0;
   width: 100%;
 }
-.couses-page-content .couses-text {
+.causes-page-content .causes-text {
   background: transparent none repeat scroll 0 0;
 }
-.couses-page-content .btn-md {
+.causes-page-content .btn-md {
   border: 1px solid transparent;
 }
-.couses-page-content .couses-price h5 {
+.causes-page-content .causes-price h5 {
   float: none;
 }
-.couses-page-content .couses-price {
+.causes-page-content .causes-price {
   float: none;
   width: 100%;
 }
-.couses-page-content .single-couses-image-text {
+.causes-page-content .single-causes-image-text {
   border: 1px solid #efefef;
   transition: all 0.3s ease 0s;
 }
-.couses-page-content .couses-text {
+.causes-page-content .causes-text {
   padding: 40px 25px 0;
 }
-.couses-page-content .blog-pagination {
+.causes-page-content .blog-pagination {
   float: none;
 }
 
