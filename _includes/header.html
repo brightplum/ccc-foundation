@@ -35,6 +35,8 @@
               </ul>
             </nav>
           </div>
+        </div>
+        <div class="col">
           <div class="donate-button">
             <a class="waves-effect waves-light" href="donate.html">Donate</a>
           </div>
@@ -58,10 +60,10 @@
         </div>
         <div class="col-md-11 col-xs-12">
           <div class="main-menu">
-            <nav class="container">
-              <ul class="row">
+            <nav class="">
+              <ul class="">
                 {% for item in site.data.navigation %}
-                <li class="col">
+                <li class="">
                   <a href="{{ site.url }}{{ item.link }}">
                     {{ item.name }}
                   </a>
