@@ -3,14 +3,14 @@
 - name: About
   link: about
 - name: Power & Purpose
-  link:
+  link: power-purpose
 - name: Grantees
-  link:
+  link: grantees
 - name: Events
-  link:
+  link: events
 - name: Photos
-  link:
+  link: photos
 - name: Members Only
-  link:
+  link: members
 - name: Contact Us
-  link:
+  link: contact
