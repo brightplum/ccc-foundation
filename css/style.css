@@ -158,9 +158,9 @@ body {
   padding: 10px 12px;
 }
 .btn-lg:hover{
-  background: #0AAAC0;
+  background: #8fc228;
   color: #fff;
-  border: 1px solid #0AAAC0;
+  border: 1px solid #8fc228;
 }
 .btn-md {
   border: 1px solid #555;
@@ -172,9 +172,9 @@ body {
   text-transform: uppercase;
 }
 .btn-md:hover{
-  background: #0AAAC0;
+  background: #8fc228;
   color: #fff;
-  border: 1px solid #0AAAC0;
+  border: 1px solid #8fc228;
 }
 .btn-sm {
   border: 1px solid #fff;
@@ -188,13 +188,13 @@ body {
   text-transform: uppercase;
 }
 .btn-sm:hover{
-  background: #0AAAC0;
+  background: #8fc228;
   color: #fff;
-  border: 1px solid #0AAAC0;
+  border: 1px solid #8fc228;
 }
 .btn-lg-f{
   border: 1px solid #fff;
-  background: #0AAAC0;
+  background: #8fc228;
   display: inline-block;
   font-family: raleway;
   font-size: 12px;
@@ -672,7 +672,7 @@ h1.title1 {
 }
 /* help-icon */
 .help-icon {
-  border: 1px solid #0aaac0;
+  border: 1px solid #8fc228;
   float: left;
   margin-right: 30px;
   text-align: center;
@@ -787,7 +787,7 @@ h1.title1 {
   text-align: center;
 }
 .count-down .tab-val {
-  background: #0aaac0 none repeat scroll 0 0 padding-box content-box;
+  background: #8fc228 none repeat scroll 0 0 padding-box content-box;
   border: 2px solid #ffffff;
   color: #ffffff;
   font-family: roboto;
@@ -976,7 +976,7 @@ h1.title1 {
   position: relative;
 }
 .blo-image-and-date > a {
-  background: #0aaac0 none repeat scroll 0 0;
+  background: #8fc228 none repeat scroll 0 0;
   color: #fff;
   font-family: "Lato",sans-serif;
   font-size: 14px;
@@ -1011,7 +1011,7 @@ h1.title1 {
 }
 .comment a:hover i,
 .admin > a:hover i{
-  color: #0AAAC0;
+  color: #8fc228;
 }
 .comment > a {
   border-right: 1px solid;
@@ -1047,8 +1047,8 @@ h1.title1 {
   line-height: 22px;
 }
 .blog-text > a:hover{
-  color: #0AAAC0;
-  border-bottom: 1px solid #0AAAC0;
+  color: #8fc228;
+  border-bottom: 1px solid #8fc228;
 }
 /*----------------------------------------*/
 /*  11. Brand logo CSS
@@ -1077,7 +1077,7 @@ h1.title1 {
   position: relative;
 }
 .footer-widget-title > h3::after {
-  background: #0aaac0 none repeat scroll 0 0;
+  background: #8fc228 none repeat scroll 0 0;
   content: "";
   display: block;
   height: 3px;
@@ -1226,7 +1226,7 @@ h1.title1 {
   font-size: 13px;
 }
 .back-home a i {
-  color: #0aaac0;
+  color: #8fc228;
   margin-right: 5px;
 }
 .page-title h1 {
@@ -1297,7 +1297,7 @@ h1.title1 {
   position: relative;
 }
 .single-project h2::after {
-  background: #0aaac0 none repeat scroll 0 0;
+  background: #8fc228 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 5px;
@@ -1742,7 +1742,7 @@ line-height: 36px;}
   line-height: 150px;
 }
 .error-content h1 span {
-  color: #0aaac0;
+  color: #8fc228;
 }
 .error-content h3 {
   color: #fff;
