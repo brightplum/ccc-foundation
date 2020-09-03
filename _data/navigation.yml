@@ -1,16 +1,8 @@
 - name: Home
-  link: index.html
+  link: /
 - name: About
-  link: about
+  link: /about/
 - name: Power & Purpose
-  link: power-purpose
-- name: Grantees
-  link: grantees
-- name: Events
-  link: events
+  link: /power-purpose
 - name: Photos
-  link: photos
-- name: Members Only
-  link: members
-- name: Contact Us
-  link: contact
+  link: /photos

@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+image: https://res.cloudinary.com/brightplum/image/upload/v1599146346/ccc-foundation/ccc-_pp6.jpg
 ---
 <h2>Our Purpose</h2>
 <br>
