@@ -26,49 +26,22 @@ layout: default
   </section>
   <!-- End page title -->
   <!-- Start our blog area -->
-  <section class="our-blog-area pt-90 pb-60">
-    <div class="container">
-      <div class="row">
-        <!-- Start single blog -->
-        <div class="col-lg-8">
-          <div class="blog-details single-blog mb-30">
-            <div class="blog-details-title">
-              <h3>{{ page.title }}</h3>
-            </div>
-            <div class="blo-image-and-date">
-              <img src=" {{ page.image }}" alt="">
-            </div>
-            <div class="blog-text">
-              <p>{{ content }}</p>
-            </div>
+  <div class="container">
+    <div class="row">
+      <!-- Start single blog -->
+      <div class="col-lg-8">
+        <div class="blog-details single-blog mb-30">
+          <div class="blog-details-title">
+            <h3>{{ page.title }}</h3>
           </div>
-        </div>
-        <!-- End single blog -->
-        <div class="col-lg-4">
-          <div class="blog-sidebar mt-sm-50">
-            <div class="event-sidebar">
-              <!-- Start event categoris -->
-              <div class="event-categoris">
-                <div class="event-sidt-title">
-                  <h3>CATEGORIES</h3>
-                </div>
-                <ul>
-                  <li><a href="#">CHILDREN</a></li>
-                  <li><a href="#">VOLUNTEER</a></li>
-                  <li><a href="#">LIVE YOUR LIFE</a></li>
-                  <li><a href="#">REAL LIFE STORY</a></li>
-                  <li><a href="#">HUNGER</a></li>
-                </ul>
-              </div>
-              <!-- End event categoris -->
-            </div>
+          <div class="blo-image-and-date">
+            <img src=" {{ page.image }}" alt="">
+          </div>
+          <div class="blog-text">
+            <p>{{ content }}</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End our blog area -->
   <div class="post-content">
   </div>
-
 </article>
